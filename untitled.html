@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Break Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="planner">
+        <h1>Study Break Planner</h1>
+        <p>How are you feeling right now?</p>
+
+        <button onclick="chooseMood('tired')">Tired</button>
+        <button onclick="chooseMood('stressed')">Stressed</button>
+        <button onclick="chooseMood('focused')">Focused</button>
+
+        <div id="suggestion">
+            <h2 id="heading">Your study plan</h2>
+            <p id="result">Choose how you feel to get a suggestion.</p>
+        </div>
+
+        <button onclick="resetPlanner()">Start Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

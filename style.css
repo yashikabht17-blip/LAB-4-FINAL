@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+}
+
+#planner {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid darkgreen;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #456b45;
+}
+
+#suggestion {
+    background-color: #eeeeee;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+#heading {
+    font-size: 22px;
+}
+
+#result {
+    line-height: 1.5;
+}
